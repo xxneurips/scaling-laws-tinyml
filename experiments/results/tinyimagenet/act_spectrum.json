@@ -1,0 +1,16 @@
+{
+  "dataset": "tinyimagenet",
+  "arch": "scalecnn",
+  "checkpoint": "tinyimagenet_cnn_c064_s0.pt",
+  "size_param": 64,
+  "n_test": 10000,
+  "d_act": 1024,
+  "beta_act": 1.8673259501979278,
+  "r2_act": 0.8993112591600284,
+  "fit_range": [
+    5,
+    500
+  ],
+  "beta_data": null,
+  "ratio_act_over_data": null
+}

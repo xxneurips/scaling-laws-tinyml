@@ -1,0 +1,16 @@
+{
+  "dataset": "cifar100",
+  "arch": "scalecnn",
+  "checkpoint": "cnn_c064_s0.pt",
+  "size_param": 64,
+  "n_test": 10000,
+  "d_act": 512,
+  "beta_act": 1.785689692351004,
+  "r2_act": 0.9405453531824911,
+  "fit_range": [
+    5,
+    500
+  ],
+  "beta_data": null,
+  "ratio_act_over_data": null
+}

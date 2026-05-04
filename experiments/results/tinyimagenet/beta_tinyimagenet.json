@@ -1,0 +1,8 @@
+{
+  "dataset": "tinyimagenet",
+  "beta": 1.2872773117088319,
+  "fit_range": [
+    5,
+    500
+  ]
+}

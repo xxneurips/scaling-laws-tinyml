@@ -1,0 +1,14 @@
+{
+  "run_name": "bp_beta1p20_c008_s2",
+  "arch": "scalecnn",
+  "width": 8,
+  "beta_tag": "beta1p20",
+  "beta_actual": 1.1782860471012102,
+  "seed": 2,
+  "num_params": 80348,
+  "epochs": 100,
+  "final_train_loss": 1.430313403178484,
+  "top1_acc": 0.5645999908447266,
+  "stable_rank": 10.03516909150945,
+  "total_time_s": 103.95400285720825
+}

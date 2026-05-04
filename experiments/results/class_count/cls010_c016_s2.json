@@ -1,0 +1,13 @@
+{
+  "run": "cls010_c016_s2",
+  "arch": "scalecnn",
+  "width": 16,
+  "n_classes": 10,
+  "seed": 2,
+  "num_params": 295290,
+  "epochs": 100,
+  "final_train_loss": 0.0526265117029349,
+  "top1_acc": 0.8730000257492065,
+  "stable_rank": 6.400999949962472,
+  "total_time_s": 435.9609594345093
+}

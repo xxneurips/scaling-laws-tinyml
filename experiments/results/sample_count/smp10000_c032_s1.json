@@ -1,0 +1,13 @@
+{
+  "run": "smp10000_c032_s1",
+  "arch": "scalecnn",
+  "width": 32,
+  "n_samples": 10000,
+  "seed": 1,
+  "num_params": 1198916,
+  "epochs": 100,
+  "final_train_loss": 0.06286076179299599,
+  "top1_acc": 0.5162000060081482,
+  "stable_rank": 18.137306528285734,
+  "total_time_s": 166.0475652217865
+}

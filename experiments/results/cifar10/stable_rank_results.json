@@ -1,0 +1,156 @@
+{
+  "results": [
+    {
+      "run_name": "cifar10_mob_w0.10_s0",
+      "arch": "mobilenet",
+      "size_param": 0.1,
+      "num_params": 98890,
+      "stable_rank": 3.8760582265792864,
+      "activation_shape": [
+        10000,
+        1280
+      ],
+      "dataset": "cifar10"
+    },
+    {
+      "run_name": "cifar10_mob_w0.15_s0",
+      "arch": "mobilenet",
+      "size_param": 0.15,
+      "num_params": 147306,
+      "stable_rank": 3.7561638042591237,
+      "activation_shape": [
+        10000,
+        1280
+      ],
+      "dataset": "cifar10"
+    },
+    {
+      "run_name": "cifar10_mob_w0.25_s0",
+      "arch": "mobilenet",
+      "size_param": 0.25,
+      "num_params": 250922,
+      "stable_rank": 4.114555789447642,
+      "activation_shape": [
+        10000,
+        1280
+      ],
+      "dataset": "cifar10"
+    },
+    {
+      "run_name": "cifar10_mob_w0.35_s0",
+      "arch": "mobilenet",
+      "size_param": 0.35,
+      "num_params": 408938,
+      "stable_rank": 4.39969573583881,
+      "activation_shape": [
+        10000,
+        1280
+      ],
+      "dataset": "cifar10"
+    },
+    {
+      "run_name": "cifar10_mob_w0.50_s0",
+      "arch": "mobilenet",
+      "size_param": 0.5,
+      "num_params": 700490,
+      "stable_rank": 4.766406129044935,
+      "activation_shape": [
+        10000,
+        1280
+      ],
+      "dataset": "cifar10"
+    },
+    {
+      "run_name": "cifar10_mob_w0.75_s0",
+      "arch": "mobilenet",
+      "size_param": 0.75,
+      "num_params": 1368234,
+      "stable_rank": 4.892092769352418,
+      "activation_shape": [
+        10000,
+        1280
+      ],
+      "dataset": "cifar10"
+    },
+    {
+      "run_name": "cifar10_mob_w1.00_s0",
+      "arch": "mobilenet",
+      "size_param": 1.0,
+      "num_params": 2236682,
+      "stable_rank": 5.229963417493986,
+      "activation_shape": [
+        10000,
+        1280
+      ],
+      "dataset": "cifar10"
+    },
+    {
+      "run_name": "cifar10_mob_w1.50_s0",
+      "arch": "mobilenet",
+      "size_param": 1.5,
+      "num_params": 4956362,
+      "stable_rank": 5.519047138511885,
+      "activation_shape": [
+        10000,
+        1920
+      ],
+      "dataset": "cifar10"
+    },
+    {
+      "run_name": "cifar10_mob_w2.00_s0",
+      "arch": "mobilenet",
+      "size_param": 2.0,
+      "num_params": 8722698,
+      "stable_rank": 5.573561838169269,
+      "activation_shape": [
+        10000,
+        2560
+      ],
+      "dataset": "cifar10"
+    },
+    {
+      "run_name": "cifar10_mob_w3.00_s0",
+      "arch": "mobilenet",
+      "size_param": 3.0,
+      "num_params": 19458058,
+      "stable_rank": 5.706786132496882,
+      "activation_shape": [
+        10000,
+        3840
+      ],
+      "dataset": "cifar10"
+    }
+  ],
+  "fits": {
+    "mobilenet": {
+      "gamma": 0.08425757855581016,
+      "r_squared": 0.9446646438417098,
+      "std_err": 0.007209854569631217,
+      "params": [
+        98890.0,
+        147306.0,
+        250922.0,
+        408938.0,
+        700490.0,
+        1368234.0,
+        2236682.0,
+        4956362.0,
+        8722698.0,
+        19458058.0
+      ],
+      "stable_ranks": [
+        3.8760582265792864,
+        3.7561638042591237,
+        4.114555789447642,
+        4.39969573583881,
+        4.766406129044935,
+        4.892092769352418,
+        5.229963417493986,
+        5.519047138511885,
+        5.573561838169269,
+        5.706786132496882
+      ]
+    }
+  },
+  "dataset": "cifar10"
+}

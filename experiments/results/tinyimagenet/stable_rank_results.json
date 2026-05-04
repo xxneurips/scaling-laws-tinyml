@@ -1,0 +1,128 @@
+{
+  "results": [
+    {
+      "run_name": "tinyimagenet_cnn_c004_s0",
+      "arch": "scalecnn",
+      "size_param": 4,
+      "num_params": 87188,
+      "stable_rank": 9.766121609663458,
+      "activation_shape": [
+        10000,
+        64
+      ],
+      "dataset": "tinyimagenet"
+    },
+    {
+      "run_name": "tinyimagenet_cnn_c008_s0",
+      "arch": "scalecnn",
+      "size_param": 8,
+      "num_params": 321344,
+      "stable_rank": 13.11727219660074,
+      "activation_shape": [
+        10000,
+        128
+      ],
+      "dataset": "tinyimagenet"
+    },
+    {
+      "run_name": "tinyimagenet_cnn_c012_s0",
+      "arch": "scalecnn",
+      "size_param": 12,
+      "num_params": 702668,
+      "stable_rank": 16.12774579000698,
+      "activation_shape": [
+        10000,
+        192
+      ],
+      "dataset": "tinyimagenet"
+    },
+    {
+      "run_name": "tinyimagenet_cnn_c016_s0",
+      "arch": "scalecnn",
+      "size_param": 16,
+      "num_params": 1231160,
+      "stable_rank": 18.253779945653942,
+      "activation_shape": [
+        10000,
+        256
+      ],
+      "dataset": "tinyimagenet"
+    },
+    {
+      "run_name": "tinyimagenet_cnn_c024_s0",
+      "arch": "scalecnn",
+      "size_param": 24,
+      "num_params": 2729648,
+      "stable_rank": 22.236429204866884,
+      "activation_shape": [
+        10000,
+        384
+      ],
+      "dataset": "tinyimagenet"
+    },
+    {
+      "run_name": "tinyimagenet_cnn_c032_s0",
+      "arch": "scalecnn",
+      "size_param": 32,
+      "num_params": 4816808,
+      "stable_rank": 23.34754330942559,
+      "activation_shape": [
+        10000,
+        512
+      ],
+      "dataset": "tinyimagenet"
+    },
+    {
+      "run_name": "tinyimagenet_cnn_c048_s0",
+      "arch": "scalecnn",
+      "size_param": 48,
+      "num_params": 10757144,
+      "stable_rank": 25.636788714826743,
+      "activation_shape": [
+        10000,
+        768
+      ],
+      "dataset": "tinyimagenet"
+    },
+    {
+      "run_name": "tinyimagenet_cnn_c064_s0",
+      "arch": "scalecnn",
+      "size_param": 64,
+      "num_params": 19052168,
+      "stable_rank": 26.46224254579304,
+      "activation_shape": [
+        10000,
+        1024
+      ],
+      "dataset": "tinyimagenet"
+    }
+  ],
+  "fits": {
+    "scalecnn": {
+      "gamma": 0.1906746598512164,
+      "r_squared": 0.9650301826044624,
+      "std_err": 0.014818136431417127,
+      "params": [
+        87188.0,
+        321344.0,
+        702668.0,
+        1231160.0,
+        2729648.0,
+        4816808.0,
+        10757144.0,
+        19052168.0
+      ],
+      "stable_ranks": [
+        9.766121609663458,
+        13.11727219660074,
+        16.12774579000698,
+        18.253779945653942,
+        22.236429204866884,
+        23.34754330942559,
+        25.636788714826743,
+        26.46224254579304
+      ]
+    }
+  },
+  "dataset": "tinyimagenet"
+}

@@ -1,0 +1,13 @@
+{
+  "run": "vit_cifar10_d192_s2",
+  "arch": "vit",
+  "dataset": "cifar10",
+  "embed_dim": 192,
+  "seed": 2,
+  "num_params": 5362762,
+  "epochs": 100,
+  "final_train_loss": 0.5054710349975489,
+  "top1_acc": 0.8336,
+  "stable_rank": 6.9241566314187075,
+  "total_time_s": 1993.242877483368
+}
